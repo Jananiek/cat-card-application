@@ -1,0 +1,25 @@
+{
+  "name": "cat-card-application",
+  "description": "Cat Card Application",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "prettier": "^2.7.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "npx prettier --write .",
+    "lint": "npm run lint:js ",
+    "lint:eslint": "eslint --ignore-path .gitignore --ext .js",
+    "lint:js": "npm run lint:eslint src/"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "jimp": "^0.16.1",
+    "minimist": "^1.2.6"
+  }
+}
