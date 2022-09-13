@@ -10,7 +10,7 @@ This is a rest API repository for customize images by integrating [Cat as a Serv
 
 ## Development
 
-I use `node` version `18.9.0`
+I used `node` version `18.9.0`
 
 ```
 nvm install 18.9.0 or nvm install node for the latest version
@@ -23,7 +23,7 @@ nvm use 18.9.0
 The first time, you will need to run
 
 ```
-yarn
+npm install
 ```
 
 Then just start the server with
@@ -78,9 +78,9 @@ I have used `Axios` instead of `request` library, because from Feb 11th 2020, it
 
 ### More Simpler Code
 
-To make it simpler project, and easy to read, I used `async/await` instead of callbacks in the script & did not use transpiler configuration for typescript. For better maintainability and organization, I used modular structure along with `import/export` instead of `require`
+To make it simpler project, and easy to read, I used `async/await` instead of callbacks in the script & did not use transpiler configuration for typescript. Also modular structure along with `import/export` instead of `require` have used for better maintainability and organization, 
 
-Useful resources and libraries that have used.
+### Useful resources and libraries that have used.
 
 - [Jimp](https://github.com/oliver-moran/jimp#readme)
 - [Cat as a Service](https://cataas.com/)
